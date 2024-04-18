@@ -963,11 +963,6 @@ body {
     display: none
   }
 }
-@media (max-width:43.75em) {
-  .splide {
-    margin-right: -.9375rem
-  }
-}
 @media (min-width:20em) and (max-width:75em) {
   @supports (gap:clamp(0.625rem ,0.0340909091rem + 2.9545454545vw ,2.25rem)) {
     .menu__list {
@@ -1280,6 +1275,11 @@ body {
     .item-feedback {
       padding: calc(.9375rem + 2.0625 * (100vw - 20rem)/ 55)
     }
+  }
+}
+@media ((max-width:43.75em) and (min-width:26.25em)) {
+  .splide {
+    margin-right: -.9375rem
   }
 }
 @media (min-width:52.5em) and (max-width:75em) {

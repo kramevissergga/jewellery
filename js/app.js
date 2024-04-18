@@ -3455,7 +3455,10 @@
                 },
                 breakpoints: {
                     700: {
-                        perPage: 1.2
+                        perPage: 1.5
+                    },
+                    420: {
+                        perPage: 1
                     }
                 }
             });
